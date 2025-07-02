@@ -1,12 +1,60 @@
-# React + Vite
+# Week 3 React.js Assignment – Task App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
+[View the deployed app on Vercel](https://week-3-react-js-assignment-brian-ma.vercel.app/)
 
-Currently, two official plugins are available:
+## 📸 Screenshot
+![Task App Screenshot](./images/task-app.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
+- **Components:** Reusable UI elements (Button, Card, Navbar, Footer, TaskManager)
+- **Pages:** Main route components (Home, About, API Demo)
+- **Context:** Theme management (light/dark mode)
+- **Hooks:** Custom hooks (useLocalStorage)
 
-## Expanding the ESLint configuration
+## ✨ Features
+- Responsive React app built with Vite and Tailwind CSS
+- Light/dark mode theme switcher (context + Tailwind dark mode)
+- Task manager: add, complete, delete, filter tasks (with localStorage persistence)
+- API integration: fetch, search, and paginate posts from JSONPlaceholder
+- Clean, modular code with React Router
+- Custom animation and transitions for interactive elements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Setup Instructions
+1. **Clone the repo:**
+   ```sh
+   git clone https://github.com/Brian-Masheti/week-3-react-js-assignment-Brian-Masheti.git
+   cd week-3-react-js-assignment-Brian-Masheti/task-app
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+4. **Open in your browser:**
+   Visit [http://localhost:5173](http://localhost:5173)
+
+## 📦 Build for Production
+```sh
+npm run build
+```
+The output will be in the `dist/` folder.
+
+## 📝 Assignment Requirements Checklist
+- [x] Vite + React + Tailwind CSS setup
+- [x] Component architecture (Button, Card, Navbar, Footer, Layout)
+- [x] State management with hooks and context
+- [x] Custom hook for localStorage
+- [x] API integration (fetch, search, pagination)
+- [x] Responsive design and dark mode
+- [x] Screenshots and deployment URL in README
+
+## 👤 Author
+Brian Masheti
+
+---
+
+> This project was completed as part of the PLP MERN Stack Development program, Week 3 assignment.
